@@ -39,9 +39,9 @@ CREATE INDEX idx_employee_name ON employees (first_name);
 -- Acción   : Descomentar las 3 líneas debajo.
 -- Esperado : 100 - 6 = 94 pts  (3 violaciones CP × -2 pts: select, from, where)
 -- =============================================================================
- select first_name, salary
- from employees
- where id = 1;
+-- select first_name, salary
+-- from employees
+--  where id = 1;
 
 -- =============================================================================
 -- TIPO 3 | ESPACIADO (LT01) | Penalización: -0.5 pts c/u
@@ -50,5 +50,5 @@ CREATE INDEX idx_employee_name ON employees (first_name);
 -- Acción   : Descomentar las 2 líneas debajo.
 -- Esperado : 100 - 1.0 = 99 pts  (2 violaciones LT01 × -0.5 pts)
 -- =============================================================================
- CREATE INDEX idx_salary ON employees(salary);
- CREATE INDEX idx_hire_date ON employees(hire_date);
+-- CREATE INDEX idx_salary ON employees(salary);
+-- CREATE INDEX idx_hire_date ON employees(hire_date);
