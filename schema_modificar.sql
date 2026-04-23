@@ -50,5 +50,5 @@ CREATE INDEX idx_employee_name ON employees (first_name);
 -- Acción   : Descomentar las 2 líneas debajo.
 -- Esperado : 100 - 1.0 = 99 pts  (2 violaciones LT01 × -0.5 pts)
 -- =============================================================================
- CREATE INDEX idx_salary ON employees(salary);
- CREATE INDEX idx_hire_date ON employees(hire_date);
+-- CREATE INDEX idx_salary ON employees(salary);
+-- CREATE INDEX idx_hire_date ON employees(hire_date);
