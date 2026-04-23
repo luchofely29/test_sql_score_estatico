@@ -26,11 +26,11 @@ CREATE INDEX idx_employee_name ON employees (first_name);
 -- Acción   : Descomentar el bloque completo (5 líneas debajo).
 -- Esperado : 100 - 5 = 95 pts  (1 violación PRS × -5 pts)
 -- =============================================================================
--- CREATE PROCEDURE get_employee (IN emp_id INT)
--- BEGIN
---     SELECT first_name, salary
---     FROM employees WHERE id = emp_id;
--- END;
+ CREATE PROCEDURE get_employee (IN emp_id INT)
+ BEGIN
+     SELECT first_name, salary
+     FROM employees WHERE id = emp_id;
+ END;
 
 -- =============================================================================
 -- TIPO 2 | CAPITALIZACIÓN (CP01, CP02) | Penalización: -2 pts c/u
